@@ -1,0 +1,13 @@
+{
+  "name" : "One Cookie",
+  "version" : "0.1",
+  "description" : "An extension to sync cookies with other devices",
+  "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*", "storage" ],
+  "browser_action": {
+    "default_icon": "cookie.png"
+  },
+  "background": {
+    "scripts": ["onecookie.js"]
+  },
+  "manifest_version": 2
+}
